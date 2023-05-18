@@ -7,10 +7,7 @@ import java from '../components/img/java.jpeg'
 import cplusplus from '../components/img/c++.jpeg'
 import python from '../components/img/python.jpeg'
 import { Link } from "react-router-dom";
-import Java from './Java';
-import Javascript from './Javascript';
-import Cplusplus from './Cplusplus';
-import Python from './Python';
+
 
 
 function Home() {
