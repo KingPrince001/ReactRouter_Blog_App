@@ -1,0 +1,10 @@
+.content-body {
+    border:
+    2px solid;
+    margin-top: 50px;
+    height: 60vh;
+    width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

@@ -1,6 +1,8 @@
 body {
   background-color: whitesmoke;
   box-sizing: border-box;
+  max-width: 100%;
+   overflow-x: hidden
 }
 .header-content {
   display: flex;
@@ -51,7 +53,7 @@ gap: 50px;
 width: 100%;
 margin-right: 110px;
 }
-nav ul  .link:hover{
+nav ul li:hover .link{
   color: darkblue;
   background-color: aliceblue;
   border: .1px solid;
@@ -65,7 +67,7 @@ nav ul .link {
   padding:4px 6px ;
   border-radius:5px ;
   color: rgb(92, 92, 151);
-  transition: all .5s ease-in;
+  transition: all 1s ease-in-out;
 }
 
 .highlights-section{
@@ -73,7 +75,7 @@ nav ul .link {
   box-shadow: 0 0 10px 5px #ff00ff, 0 0 20px 10px #00ffff;
   border:1px solid;
   margin-top: 15px;
-  margin-right: 120px;
+  margin-right: 50px;
   /* margin-left: -80px; */
   height:400px ;
   width: 300px;
@@ -93,6 +95,9 @@ nav ul .link {
   transform: scale(1);
   transition: all .5s ease-in;
 }
+.btn .read-more {
+  color: white;
+}
 .btn:hover {
   background-color: blue;
   color: white;
@@ -101,8 +106,42 @@ nav ul .link {
 .footer {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  margin-top: 50px;
   gap: 20px;
+  width: 100vw;
   align-items: center;
   background-color: antiquewhite;
+}
+
+.ceo {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+/*  media queries for responsive design */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+  }
+
+  .nav-links li {
+    margin: 5px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    padding: 5px;
+  }
+
+  .nav-links li {
+    margin: 2px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 2px;
+  }
 }
