@@ -6,7 +6,7 @@ import Blogs from './Pages/Blogs'
 import Java from './Pages/Java'
 import Javascript from './Pages/Javascript'
 import Python from './Pages/Python'
-import CPlusPlus from './Pages/CPlusplus' 
+import CPlusPlus from './Pages/CPlusPlus' 
 import './App.css'
 
 function App() {
