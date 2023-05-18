@@ -67,6 +67,9 @@ nav ul .link {
   padding:4px 6px ;
   border-radius:5px ;
   color: rgb(92, 92, 151);
+  display: flex;
+  align-items: center;
+  gap: 5px;
   transition: all 1s ease-in-out;
 }
 

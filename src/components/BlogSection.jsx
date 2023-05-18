@@ -1,9 +1,9 @@
-const BlogSection= ({Title,Content}) =>{
+const BlogSection= ({Title,Content,button}) =>{
     return (
         <div className="blog-section">
             <h2 className="blog-title">{Title}</h2>
             <p className="blog-content">{Content}</p>
-            <button className="btn">Read More</button>
+            <button className="btn">{button}</button>
         </div>
     );
 }
