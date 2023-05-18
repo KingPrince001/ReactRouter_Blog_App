@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Featured Content */
+.featured-posts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .post-card {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .post-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .post-card h3 {
+    margin-bottom: 5px;
+  }
+  
+  .post-card p {
+    margin-bottom: 10px;
+  }
+  
+  .post-card a {
+    display: block;
+    text-align: right;
+  }
+  
+  /* Latest Articles */
+  .latest
+  
